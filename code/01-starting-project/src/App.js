@@ -5,7 +5,7 @@ import Cart from './components/Cart/Cart';
 
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
-
+  const [user, setUser] = useState("7ayush");
   const showCartHandler = () => {
     setCartIsShown(true);
   }
