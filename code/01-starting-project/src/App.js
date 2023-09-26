@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   const [ showParagraph, setShowParagraph] = useState(false);
-  
+  console.log('App.js file running');
   const toggleParagraphHandler = () => {
     setShowParagraph(prevState => !prevState);
   }
