@@ -3,7 +3,7 @@ import React from 'react';
 import classes from './Button.module.css';
 
 const Button = (props) => {
-  console.log('Button file is running')
+  console.log(`Button file is running for ${props.label || ""}`)
   return (
     <button
       type={props.type || 'button'}
